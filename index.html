@@ -48,8 +48,9 @@
           </div>
 
           <div class="col-12 col-md-4 col-xl-2 col-mt-4">
-            <a class="text-nowrap btn btn-lg btn-info" href="#reserveForm" role="button"
-              >Campsite Reserve</a>
+            <a class="text-nowrap btn btn-lg btn-info" href="#reserveForm" role="button" data-toggle="tooltip" data-placement="bottom"
+               data-html="true" title="Or call us at <br /><strong>1-206-555-1234</strong>"
+              > Reserve Campsite</a>
             
           </div>
         </div>
@@ -174,7 +175,7 @@
                 <div class="form-group row">
                   
                     <label class="col-12 col-sm-6 col-form-label"
-                      >Number of Campers</lable
+                      >Number of Campers</label
                     >
 
                     <div class="col-sm">
@@ -277,5 +278,12 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <!--tooltip script-->
+    <script>
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
   </body>
 </html>
