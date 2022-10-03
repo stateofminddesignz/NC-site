@@ -46,3 +46,10 @@ a, a:hover{
 .carousel{
     border:10px solid  #697be2
 }
+
+#carouselButton{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index:100;
+}
