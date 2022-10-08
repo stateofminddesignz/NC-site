@@ -7,18 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
      <!--Bootstrap css-->
-
+     <!-- build:css css/main.css -->
      <link
      rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
 
-<!--GOOGLE FONTS-->
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
    
    <!--Additinal css -->
 
-   <link rel="stylesheet" href="css/styles.css"/>
+  
    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+   <link rel="stylesheet" href="css/styles.css"/>
+   <!-- endbuild -->
+   <!--GOOGLE FONTS-->
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
     <title>NuCamp: A Better Way To Camp</title>
 </head>
@@ -240,9 +243,14 @@
         </div>
     </footer>
 <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ <!-- build:js js/main.js -->
+ <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+ <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+ <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+ <script src="js/scripts.js"></script>
+ 
+<!-- endbuild -->
 </body>
 
 </html>
